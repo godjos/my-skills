@@ -1,0 +1,678 @@
+{
+  "version": 1,
+  "entries": {
+    "ai-slop-cleaner": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ai-slop-cleaner",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.73757559+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ai-slop-cleaner",
+      "version": "e50e945",
+      "tree_hash": "8b55016a228faab3c903cf7161c525d1cb8b2b65",
+      "file_hashes": {
+        "SKILL.md": "sha256:3b34b200e4797cf0b31a2840ee745565a84bcd59fd0537b41825fa5951087a8c"
+      }
+    },
+    "amg_python_env": {
+      "source": "./amg_python_env/",
+      "type": "local",
+      "installed_at": "2026-05-28T15:30:31.38858527+08:00",
+      "file_hashes": {
+        "SKILL.md": "sha256:a562b7aed083169c94aa4c893f269bec61a292d7818c6c87b5456541027d6c66"
+      }
+    },
+    "analyze": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/analyze",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.767052768+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/analyze",
+      "version": "e50e945",
+      "tree_hash": "86107571b11f65d04c2bf40ca12772dfd82acebf",
+      "file_hashes": {
+        "SKILL.md": "sha256:3f64b3f5b888a75e9d6d043b3b87b6961cc780a997ee22f44d77dbb1716dcae5"
+      }
+    },
+    "ask": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ask",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.784399365+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ask",
+      "version": "e50e945",
+      "tree_hash": "1700c146632bc18d1a54401735b9c1cfc951fefe",
+      "file_hashes": {
+        "SKILL.md": "sha256:5301bee75b021060a7021bb27782c904e4bebff1217e158a3107285e649c65ed"
+      }
+    },
+    "ask-claude": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ask-claude",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.794597845+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ask-claude",
+      "version": "e50e945",
+      "tree_hash": "3aebed33f91b1124e4c09dfe003138c84a9005c2",
+      "file_hashes": {
+        "SKILL.md": "sha256:496e7a4dedcb55860b38e126d270e08f331d4f695e2dc22fb0249b6104517d0e"
+      }
+    },
+    "ask-gemini": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ask-gemini",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.807652726+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ask-gemini",
+      "version": "e50e945",
+      "tree_hash": "f8d7ac30812ce1b6a90438a205a00067f5e905b5",
+      "file_hashes": {
+        "SKILL.md": "sha256:04f4dbf8f289f2be15cb986b5aed5b46a7974e5f4655eacbc38696ee3a7f1082"
+      }
+    },
+    "autopilot": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/autopilot",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.851794297+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/autopilot",
+      "version": "e50e945",
+      "tree_hash": "70fd4108322ca2eb184a26de13b7e25046652a2a",
+      "file_hashes": {
+        "SKILL.md": "sha256:c947ce50189e097bced028923b3bdc495d7cc60fbdc2cdf08cb79f1cb29670e4"
+      }
+    },
+    "autoresearch": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/autoresearch",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.872828131+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/autoresearch",
+      "version": "e50e945",
+      "tree_hash": "f1a9ce0bf74511be56164288e09ba5cca0a507df",
+      "file_hashes": {
+        "SKILL.md": "sha256:5620155f31222fc0b2b76fce133aa7a77ca7d6e89607c65495f9efbb48d53eb2"
+      }
+    },
+    "autoresearch-goal": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/autoresearch-goal",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.89221637+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/autoresearch-goal",
+      "version": "e50e945",
+      "tree_hash": "f0376e6819f5e76b6f6bf3c4d353ab6f9146617a",
+      "file_hashes": {
+        "SKILL.md": "sha256:4d2b4e5caf8b5be291ecb198915f8657e3eee8bdd756793c8200539b3afe10e2"
+      }
+    },
+    "best-practice-research": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/best-practice-research",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.91758421+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/best-practice-research",
+      "version": "e50e945",
+      "tree_hash": "dd1605cfb72c27f67864da6161a4568b62301b29",
+      "file_hashes": {
+        "SKILL.md": "sha256:98f64f8a6b65636ccea8c57d22efd95343d21dc6ba6e9bc1d798fb5f4d346499"
+      }
+    },
+    "build-fix": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/build-fix",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.929728253+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/build-fix",
+      "version": "e50e945",
+      "tree_hash": "b89b5c43ad93f0605e22bc4ea3ec062093be93ab",
+      "file_hashes": {
+        "SKILL.md": "sha256:aafbdee5a0c1df78850f1db9ee078f818d63cc442371ca822ec0df2d52c34e40"
+      }
+    },
+    "cancel": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/cancel",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:31.980834718+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/cancel",
+      "version": "e50e945",
+      "tree_hash": "e0cd82161166d44c776170f58c3efaafc7c02637",
+      "file_hashes": {
+        "SKILL.md": "sha256:9dc56f2817d218c696c7de198dc21b7666e8c37d8a78373cc1b04869586ba96b"
+      }
+    },
+    "code-review": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/code-review",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.021982767+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/code-review",
+      "version": "e50e945",
+      "tree_hash": "7a07cce9b1c954bdbcc0894830ffa8a6bdef5f8f",
+      "file_hashes": {
+        "SKILL.md": "sha256:94f905c5f48c1dd1347b4829d3f78a53c341b90c3856328f46b2f90cba2893dd"
+      }
+    },
+    "configure-notifications": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/configure-notifications",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.065229584+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/configure-notifications",
+      "version": "e50e945",
+      "tree_hash": "b0259e087f6ceb90fe36386972630b439641fc2d",
+      "file_hashes": {
+        "SKILL.md": "sha256:c6aa441dda9be9389e8069c8d6e6817f9f4183beaf7cabec22ca4dc793a02d1e"
+      }
+    },
+    "deep-interview": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/deep-interview",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.136183964+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/deep-interview",
+      "version": "e50e945",
+      "tree_hash": "636a8b6e25ff1c56cb5fa6e8479d5dbeca0a2f23",
+      "file_hashes": {
+        "SKILL.md": "sha256:95164d5e5c3afb8a969b36768f1f96593ff4d460f48307a1534c7a84c1e390f4"
+      }
+    },
+    "deepsearch": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/deepsearch",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.148069711+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/deepsearch",
+      "version": "e50e945",
+      "tree_hash": "516597ec9ec4b0c31a4da0884ead7c8f484f0a87",
+      "file_hashes": {
+        "SKILL.md": "sha256:2dc38ba1be7baacb09edf09df30d394d7ec24428cc6055ecef23ebb0b7b92fd9"
+      }
+    },
+    "design": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/design",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.178136137+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/design",
+      "version": "e50e945",
+      "tree_hash": "f92911b64ebd1d116811653d55330669f03f0f7e",
+      "file_hashes": {
+        "SKILL.md": "sha256:793d9fb7ce9fbcb238ee27c96d31dc2c0edf4d77cdaf28d023138a4197b1f956"
+      }
+    },
+    "doctor": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/doctor",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.200399908+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/doctor",
+      "version": "e50e945",
+      "tree_hash": "944c55feb55659d8e9ff37853ce1848ac8ed8d4a",
+      "file_hashes": {
+        "SKILL.md": "sha256:75acd48ed891b72a5c6be5ecd6606343961830f064e933a6a1650a9f2cef7bdd"
+      }
+    },
+    "ecomode": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ecomode",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.223776585+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ecomode",
+      "version": "e50e945",
+      "tree_hash": "0c94771a1814b5891364b602df7b8cd24a196bc6",
+      "file_hashes": {
+        "SKILL.md": "sha256:dc801b443d38472334ce65e959f565421be8b6fd43fa957c51d284659029900e"
+      }
+    },
+    "frontend-ui-ux": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/frontend-ui-ux",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.233499789+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/frontend-ui-ux",
+      "version": "e50e945",
+      "tree_hash": "b2ea6aecf59db53ed8333a5556edd32d5015348f",
+      "file_hashes": {
+        "SKILL.md": "sha256:70e692291e8f1c58bdf8a42cc1809d9f8d987a900e9b816fb2f51d34869111d0"
+      }
+    },
+    "git-master": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/git-master",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.242475707+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/git-master",
+      "version": "e50e945",
+      "tree_hash": "e8fc97ce22d66e6d82b87580aa5b5dffca2e55c3",
+      "file_hashes": {
+        "SKILL.md": "sha256:d917dbd61c1476133a6fa2e5c3ff3fbd4d56a458fea71aa0594c16b8d998f2b7"
+      }
+    },
+    "help": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/help",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.251224029+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/help",
+      "version": "e50e945",
+      "tree_hash": "8017c584953b4aa2889ca0b5616c73645ba0ba8b",
+      "file_hashes": {
+        "SKILL.md": "sha256:84fda285c398f5a496ce221e931f8395a8864fc592fbf4cb5ef7322f8c5a8785"
+      }
+    },
+    "hpc-Paper-Writing-Skills": {
+      "source": "./hpc-Paper-Writing-Skills/",
+      "type": "local",
+      "installed_at": "2026-05-28T15:30:25.478247224+08:00",
+      "file_hashes": {
+        ".codex": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        ".gitignore": "sha256:d5418a339bcfe083f05a6e312515477adbc88b0bd8f302846f9b34e23f4d8919",
+        ".omx/logs/notify-fallback-2026-04-01.jsonl": "sha256:01905a0460e0fd88bee4171abd3fb98593d9c23b107ab14773f39c056df36837",
+        ".omx/logs/notify-hook-2026-04-27.jsonl": "sha256:8499ce4f4c09fa88141aba5a6cbc961bca0f3c6ff980da9682c11fbb3b4513d7",
+        ".omx/logs/notify-hook-2026-05-25.jsonl": "sha256:96d33a1acfc0a1a59d3d45e170983449ec71e64a6fcf3a38269311003475ff62",
+        ".omx/logs/omx-2026-04-01.jsonl": "sha256:febd73005cc8ecf037466a7466a2e500c69d69c65a8b183751257e3cb2f6053b",
+        ".omx/logs/session-history.jsonl": "sha256:0636a67597da3a42136dceccea3a6425a4a871a3cd7480561d16820cdd346504",
+        ".omx/logs/turns-2026-04-01.jsonl": "sha256:b7a4c9cfd47b1a18cd0bcbb484d7201449bd2fb963fe9b3f7a054ef8af5e81e8",
+        ".omx/logs/turns-2026-04-16.jsonl": "sha256:89ee476cf2fb91e1dd415ea2b1546c268aa5418edc17fd6d442c0b894e43a9d7",
+        ".omx/logs/turns-2026-04-17.jsonl": "sha256:295960b73509b8575f28fcc6bb87c1275735a28ccb8996fd3c3e3271d209ec0b",
+        ".omx/logs/turns-2026-04-27.jsonl": "sha256:a68368e6ebde555325de25d65ebbe316de80c49ed6c39da706642fdc9a69947e",
+        ".omx/logs/turns-2026-05-05.jsonl": "sha256:1f7742868a710b52cf01f540fb1d3c1639a42b6cdcaabf6f9d22d63f8465d58b",
+        ".omx/logs/turns-2026-05-06.jsonl": "sha256:6c8f77ac8df72fd88bb0ee70ee4bf77ee49581b30f941ed8a6babeb555a9163b",
+        ".omx/logs/turns-2026-05-07.jsonl": "sha256:7ffdd5b27561d4fb9ced2543923967a32b4c09db3c44918c3e51c02fc32fb418",
+        ".omx/logs/turns-2026-05-25.jsonl": "sha256:b36338da050da53863477add45e3a260a4a82a934daf36f7d03b844d2942131e",
+        ".omx/metrics.json": "sha256:204365568f1cc769b7d3dee65a0aac4d04a58dea775ad1752539604855406e4a",
+        ".omx/state/hud-state.json": "sha256:4980e1b602a0ab9555d7025557f816dead5c5ba91eb50e1843d48d98565eef66",
+        ".omx/state/notify-fallback-authority-owner.json": "sha256:02327000823b277aaeb141b2c6fbd00f0a8a6760771795ba2d9ea57e3dfbc1f2",
+        ".omx/state/notify-fallback-state.json": "sha256:499528c4824ba334ebc785ff39389bc5a81b9a8affcb7434953aa5387c3b8a8d",
+        ".omx/state/notify-hook-state.json": "sha256:e936a83e4f5fefeec1117dbc0903ea989153fd1574b24dd00c8355160ef73b8a",
+        ".omx/state/skill-active-state.json": "sha256:81cd16d190edba33563228cf0d0b7a9fe9a2549fb4d0111cf2b80e3f693da72a",
+        ".omx/state/team-leader-nudge.json": "sha256:05a821e65d035c79ac1d80d8185fa594dc34c83e7f04f585414766230b58f60e",
+        ".omx/state/tmux-hook-state.json": "sha256:7179aaee6ecf7bc1726fb8804650868d7c2400f793d112096995621e6d9275a4",
+        ".omx/state/update-check.json": "sha256:7d524913bf73d79a289c43dae6d26eecee335e5a3c42c2dba23bbe915b31600d",
+        ".omx/state/verdicts/latest-verdict.json": "sha256:c5778ff077fccc13f9a2733d3ab00f8075bacff20082dea058819eb033d50dae",
+        "README.md": "sha256:b18c8e03ce67156aeb413382fee486f40696a29b57fa8171a58a1508d21e3bb4",
+        "README_zh.md": "sha256:914b5fe48266bb19df95d49321c49fa222fc80afe2644c81504413c76e596382",
+        "research-paper-writing/SKILL.md": "sha256:066210a7f550e3012f7afeb76c9dba95d4617d4251dfcac813d897c02b375e8f",
+        "research-paper-writing/agents/openai.yaml": "sha256:1b2f264886e5dc7e877d613d8c8e13367ec1810fe2445e1799e7804e5213c96b",
+        "research-paper-writing/references/abstract.md": "sha256:40e63f4b3f3793afe1980a0e94c409f7c5a82053601fe1f1e8e34561ae63a93b",
+        "research-paper-writing/references/conclusion.md": "sha256:d946dd99c52481d5bccf4484e7982209d62e865c381853712b5ab1a38fecb1b0",
+        "research-paper-writing/references/does-my-writing-flow-source.md": "sha256:d49ec34d73a740ce5344a6235ccf6ae36e32a79fc1268a57cd487294937a8a42",
+        "research-paper-writing/references/examples/abstract-examples.md": "sha256:649cda738dae2b11932d4fad6e7487b00f228e04f59a2177f6f14fb04dc6f16c",
+        "research-paper-writing/references/examples/abstract/template-a.md": "sha256:8d6463aa58c490aaa03ea40d1a41cb50cf0a99bcb03fcc7a707c39f22b78063c",
+        "research-paper-writing/references/examples/abstract/template-b.md": "sha256:30bedcf9c74727c4405fb892715df5221a0aab13939ab092b2568e40760e43c5",
+        "research-paper-writing/references/examples/abstract/template-c.md": "sha256:a7ff6b5fd8a1bb7a692bdfbf16d1afb42325341892e2a726822791ab746d8027",
+        "research-paper-writing/references/examples/hpc/collective-optimization.md": "sha256:78474cb8d744547af9aab9d074307f1dcc889f27b101c5fe9879a1aa442cf7ad",
+        "research-paper-writing/references/examples/hpc/mpi-cuda-stencil.md": "sha256:b1044afccb65e4327649ce1ed04cc763e4ff1f3a3493682208987aeb3800dbad",
+        "research-paper-writing/references/examples/hpc/numa-aware-task-runtime.md": "sha256:731d34b6de132bda562e15b08ae65e273bd315096c64e9c7b4841ff6bc717315",
+        "research-paper-writing/references/examples/hpc/parallel-io-checkpointing.md": "sha256:9dd7d90ba9635039132568198eb2b4707eab0d72225e343aa5577dcee66e7328",
+        "research-paper-writing/references/examples/hpc/sparse-matrix-gpu.md": "sha256:0b3d5a6c3b06bd113315ca4db4383d4aae7c323e7d2304e71a1aa009477c04ac",
+        "research-paper-writing/references/examples/index.md": "sha256:537451a47a13d6b5d1d9acaca0be74a033a689897d80fb8b30585054c1e1cf4e",
+        "research-paper-writing/references/examples/introduction-examples.md": "sha256:e4862f11673bfd86f293e6da89f717a8e1e4d08ba1c826b2b9ad4c47e80bf219",
+        "research-paper-writing/references/examples/introduction/novel-task-challenge-decomposition.md": "sha256:542e64aa0326981136ca6c11c9b21e7a7e5dca018b3f39a7c03e1542bd6e9e85",
+        "research-paper-writing/references/examples/introduction/pipeline-not-recommended-abstract-only.md": "sha256:79a54359b15949ae870772e00ffed698723ea0287df3cea43471b5e248c138a2",
+        "research-paper-writing/references/examples/introduction/pipeline-version-1-one-contribution-multi-advantages.md": "sha256:86e2b86e26b8f04c572e091fb7b9c53aaf3c8e538a12b016f0a0e8681e183051",
+        "research-paper-writing/references/examples/introduction/pipeline-version-2-two-contributions.md": "sha256:750d065de4996bdb670933ed24021936289c74d35ee71b5bce8eb318cf79131d",
+        "research-paper-writing/references/examples/introduction/pipeline-version-3-new-module-on-existing-pipeline.md": "sha256:c393a7cb4f4b9603fdbb11ed353bb35ebb86b50c8694bf8d32864c12dbe6b5c6",
+        "research-paper-writing/references/examples/introduction/pipeline-version-4-observation-driven.md": "sha256:66c57b1f355d06eaa98b0304fabd0e4d94ab41780ac289fba06537a6538c14ba",
+        "research-paper-writing/references/examples/introduction/technical-challenge-version-1-existing-task.md": "sha256:8fbf3fa6337ba90fa3696f3682af72b666645984d64fac179b24f525ead4eb02",
+        "research-paper-writing/references/examples/introduction/technical-challenge-version-2-existing-task-insight-backed-by-traditional.md": "sha256:5b49cd9d185614730d8005aa05f9c88746e9287d76dcde2d56783617d1de4876",
+        "research-paper-writing/references/examples/introduction/technical-challenge-version-3-novel-task.md": "sha256:2e324aeafb3af9bf96c4482bcada70ccf38ed322997902599d5ae8364c06f541",
+        "research-paper-writing/references/examples/introduction/version-1-task-then-application.md": "sha256:7b57bfd7e8a9f2addeb7a1a12b86d2eb8239c55d345cf01823b2f432a7b3f6a2",
+        "research-paper-writing/references/examples/introduction/version-2-application-first.md": "sha256:29da09ff8a8989734f6d62adc3f2a5d799d13b6e4aea58307d86979d365b6d67",
+        "research-paper-writing/references/examples/introduction/version-3-general-to-specific-setting.md": "sha256:c795c7b5689978ad889e758094807a5cd6b6857c56472dad1457f6b353d6a1b7",
+        "research-paper-writing/references/examples/introduction/version-4-open-with-challenge.md": "sha256:5e49ba7bf407e9c578fde7fce36796a51f4f71bb9723bae6455cbfc8fdf32d3b",
+        "research-paper-writing/references/examples/method-examples.md": "sha256:0e501feba7614899ad093379564423e3384992b240965993d93a316227078070",
+        "research-paper-writing/references/examples/method/annotated-system-overview-halo-exchange.md": "sha256:059b06719431950c7e98043043de6b4c594273dd30e24fb9a5293c3504b28ed4",
+        "research-paper-writing/references/examples/method/example-of-the-three-elements.md": "sha256:1c585d0860ccc0c8a53ed4f778dc4f03cefdf7accf3dac4cde7b7e7e3fea637c",
+        "research-paper-writing/references/examples/method/method-writing-common-issues-note.md": "sha256:a0da033df0e25c5cc9d3a7533cbb827845374a15c5dd49454333c1d15105db5a",
+        "research-paper-writing/references/examples/method/module-design-communication-overlap.md": "sha256:b68d1ccaf5cad0647820939538afdc5599a2154a3a37992d08a84475a7a0bb67",
+        "research-paper-writing/references/examples/method/module-motivation-patterns.md": "sha256:baad55c58343432751834c8c8c89b9e54e1cf59a373d2cdc91048a4a2f545ef1",
+        "research-paper-writing/references/examples/method/module-triad-mpi-cuda-stencil.md": "sha256:54cd16078a8fa16f783b7719a83c599279f6a9e7b3ff5ca73f86b15135544e72",
+        "research-paper-writing/references/examples/method/overview-template.md": "sha256:dd7ed0e52eee35070ad3b6b1054c1ffd939b8757a26a521db1691fca656b71a4",
+        "research-paper-writing/references/examples/method/pre-writing-questions.md": "sha256:111601b93453dc17e12a66effa253cd8ae67244975d154d30cc838bb407d8ccd",
+        "research-paper-writing/references/examples/method/section-skeleton.md": "sha256:1cd9f489eaaf7c229a7f5aae11a9e50edfd58efe4687837110ad3ed0b06e3270",
+        "research-paper-writing/references/experiments.md": "sha256:5624e804c72d6e6360d25a8b68cfd3f366176a4dab7947655e0305badcb89bdc",
+        "research-paper-writing/references/figures-tables.md": "sha256:921725c9b84cddde60870cb83480fa2807de57c03b7e20f752f664befb61212a",
+        "research-paper-writing/references/final-self-check.md": "sha256:75d2c25b1f2a8a3c5cc86a85a756f8a64e09d325e6c4fc49963d8bc322b681a5",
+        "research-paper-writing/references/hpc-prose-polish.md": "sha256:bc297bc9ddeeafbdd4f36fb17313386bbec69998657aa567c225f58d9eb1c068",
+        "research-paper-writing/references/hpc-terminology.md": "sha256:5a1d02675820f64c7e22d6d1fa08a7351ce216714cb41d41d6fc28193be1e954",
+        "research-paper-writing/references/introduction.md": "sha256:b2f2aefa4c1795578c479fc79f288692850242f2371dc91ea81e067a20874339",
+        "research-paper-writing/references/method.md": "sha256:06b077135c67831a207c927ad6c448dfb75541eb9c3c34f6ccffaeb9db4ff865",
+        "research-paper-writing/references/paper-intake.md": "sha256:87a3877b2868c36b5ccd887935d89ab5cb9838f2cb570d9013fdf46e81df046e",
+        "research-paper-writing/references/paper-review.md": "sha256:f29febc5fa4f30cddb22b40bdd3f8b3bf3edc116e5c41172b913c8ad6354db66",
+        "research-paper-writing/references/paper-revision-polish.md": "sha256:dbeb57cbff1e4b069d53abd57c25ef1cffd7b47c3de36aed07d88285343b9b50",
+        "research-paper-writing/references/performance-evidence.md": "sha256:4f71f8fd3ead636443ac6598fbe0c20e8a4f625870fc4c8dae69add9b41c2ae8",
+        "research-paper-writing/references/related-work.md": "sha256:7554da5d5a0bd1153b2597d80008869184e9b09c65b548caae822748796bae5d",
+        "research-paper-writing/references/reproducibility-artifact.md": "sha256:11eaeb6303a050a1aa590ce2dbb50288d7aa436c40fa5810ad6d36a953c0e500",
+        "research-paper-writing/references/style-calibration.md": "sha256:2ef2042addb5d943035c1bb9805c360534c30cdf24703fb394cdcdb8ac48f57e",
+        "research-paper-writing/references/venue-reviewer-profile.md": "sha256:95d2ec17778af98f33876e34ceb750174ebe9d285a8475ee878baf029a7e3a97"
+      }
+    },
+    "hud": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/hud",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.274682915+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/hud",
+      "version": "e50e945",
+      "tree_hash": "a33bd78901d64bb5218189cc6e834c2946ac7e0f",
+      "file_hashes": {
+        "SKILL.md": "sha256:d5c30b632149f1fc06e9945872e3eb02a5efeb93ba66bf512ecae558d1e3b4ea"
+      }
+    },
+    "note": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/note",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.286645787+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/note",
+      "version": "e50e945",
+      "tree_hash": "101f979a355b4fbd682a450c7987df3deb1b890e",
+      "file_hashes": {
+        "SKILL.md": "sha256:4c842f56d349dd03ce1d69fff55c0389cd4158f3c802620b936967b41677c687"
+      }
+    },
+    "omx-setup": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/omx-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.329198673+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/omx-setup",
+      "version": "e50e945",
+      "tree_hash": "fa0a696e22ab1c4222ebdfd77313b8724b50787d",
+      "file_hashes": {
+        "SKILL.md": "sha256:1a17d6a955d95a6e792fa76ab380f4e760032c028f8a664cd3ccc7d27ce95a8b"
+      }
+    },
+    "performance-goal": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/performance-goal",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.352162782+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/performance-goal",
+      "version": "e50e945",
+      "tree_hash": "2533da650a7783c8bf1d76536eeb9e67f9edb4a7",
+      "file_hashes": {
+        "SKILL.md": "sha256:0d7f99e9fc8141f75c3d0a7ea187b0616daab971c0518473d7560333390adfe4"
+      }
+    },
+    "pipeline": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/pipeline",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.377322948+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/pipeline",
+      "version": "e50e945",
+      "tree_hash": "f0bad88f5ee9f2ad11d0116ce16f29aba958ce81",
+      "file_hashes": {
+        "SKILL.md": "sha256:f23018b67d7ea59bfca4e5321bfd0c5584f34d547598334fba625869fbdd7a37"
+      }
+    },
+    "plan": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/plan",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.41935455+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/plan",
+      "version": "e50e945",
+      "tree_hash": "908937d48a98fc30a09909f409bc67658810a592",
+      "file_hashes": {
+        "SKILL.md": "sha256:24ddfa88be1efd06baf8fd93373be6d19ade207a6d2c37822d8dcc08835770ac"
+      }
+    },
+    "prometheus-strict": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/prometheus-strict",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.483678452+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/prometheus-strict",
+      "version": "e50e945",
+      "tree_hash": "48554fd0c07d74a216c332eb979cf988bebabc48",
+      "file_hashes": {
+        "README.md": "sha256:5b45be9c044bdf0600aee464582562a489e555a6dadb7d663d9fc1599e89b1da",
+        "SKILL.md": "sha256:43b2639c4dc2ac3853fc141927270ab6c6cb1d791b52934f0eb1a437e57d6b81"
+      }
+    },
+    "ralph": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ralph",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.534495809+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ralph",
+      "version": "e50e945",
+      "tree_hash": "ce88e9d560c90b2eebda635e49eb0b9c0078b4da",
+      "file_hashes": {
+        "SKILL.md": "sha256:9bc5c2b654439d3f6f75fc27a8a4f2ea7c07bf195d2db2adc0c2d7f58b9b22e2"
+      }
+    },
+    "ralph-init": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ralph-init",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.546063867+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ralph-init",
+      "version": "e50e945",
+      "tree_hash": "1ba30289739711a8d313eadb58c28e2768436341",
+      "file_hashes": {
+        "SKILL.md": "sha256:b81b0739c103e044c97ad808739a83c252d92f486084202374fec69eeb8a194e"
+      }
+    },
+    "ralplan": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ralplan",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.59358672+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ralplan",
+      "version": "e50e945",
+      "tree_hash": "0f39433d160b5b36452abb71b2761a845486e6a7",
+      "file_hashes": {
+        "SKILL.md": "sha256:25ade673eaff667d05532ad987c241142497f8f9c0fdcc426450fb5669a61ae0"
+      }
+    },
+    "review": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/review",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.605676411+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/review",
+      "version": "e50e945",
+      "tree_hash": "31769ee4e1fb47ad94e879a2055c4bca990c2a1b",
+      "file_hashes": {
+        "SKILL.md": "sha256:6099f7c30780c96c0bea1a339319e6324eeddabe84003a6d928ccc877bc4d0ec"
+      }
+    },
+    "security-review": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/security-review",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.618043288+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/security-review",
+      "version": "e50e945",
+      "tree_hash": "beb3e43bae8c73884d99679071c4ef7cb4823755",
+      "file_hashes": {
+        "SKILL.md": "sha256:007ac9f94b8d246f64a5c0360408f5682ae43d5468c4415ca9c2f6623e82321c"
+      }
+    },
+    "skill": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/skill",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.677279443+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/skill",
+      "version": "e50e945",
+      "tree_hash": "a3fe27bd4e6ff73f89bfc1b6e0c0932cee2db895",
+      "file_hashes": {
+        "SKILL.md": "sha256:b459ca43f1cefbf9a367a39dd0b76283408cdef8cf52ad1890d806359d5bb9bb"
+      }
+    },
+    "skillshare": {
+      "source": "github.com/runkids/skillshare/skills/skillshare",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:23:21.25250029+08:00",
+      "repo_url": "https://github.com/runkids/skillshare.git",
+      "subdir": "skills/skillshare",
+      "version": "d32a15f",
+      "tree_hash": "d87fc46896238465f0d6a462aea27630cf86b102",
+      "file_hashes": {
+        "SKILL.md": "sha256:0d46ff24935f49c4676bdb9093aa35c204bee573c4a008dd056c3f15422dc0fc",
+        "references/TROUBLESHOOTING.md": "sha256:14855dbd2f20ad7042941959f257c79f768d103e89e55d74d8c3b3d38f9ff5ee",
+        "references/audit.md": "sha256:85a31c32f17f39ce2baa5189a8004c6adec506e5fcf7d20378caa103b015fd5d",
+        "references/backup.md": "sha256:96e2e8d5e2d7cfb8765c2eebb4e6d733b79258de8b3d974fca8972557f7326a6",
+        "references/extras.md": "sha256:27529c7fba6335efabb38a2a5dac1c0e4a0b79d16d0188d3f98dad2068ec4bdf",
+        "references/init.md": "sha256:41d99a2a49f576e1a2354312856ccf730f8d19d4c8d35c592585d40bc2d14d82",
+        "references/install.md": "sha256:2b444bfcd211fae59421631ecd49331b4de287c311354f8ed3ca19f204d223db",
+        "references/log.md": "sha256:406e85525f53f4deaa0f48bf8b3b53db3e032b99f5a0e926c84542d51b3a3625",
+        "references/status.md": "sha256:0143c8250ecbedfa14607b82cbfb23107294b6c1e053b5726629556b7a47412c",
+        "references/sync.md": "sha256:75577dce829fda6050b3b761915b70d9aef0d6bdb3c010d2fef7b7b22e226a8e",
+        "references/targets.md": "sha256:130b0b07b17a88d4bc09af0262a6b161421946f5442295dc5bc828f95226763e",
+        "references/trash.md": "sha256:fb94aa6b71d469fa8f6b5e728fcab531b6eb010a2092389b02eaaadf3ebc98cf",
+        "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
+      }
+    },
+    "swarm": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/swarm",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.689764929+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/swarm",
+      "version": "e50e945",
+      "tree_hash": "58df12d2ec4e5150bff7acfcf56f322f4d0e8961",
+      "file_hashes": {
+        "SKILL.md": "sha256:9806ce3dff32a149edc61bc62ee20ecadc1cce6fdc9f997f3abc5ec4cc1633d4"
+      }
+    },
+    "tdd": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/tdd",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.708722474+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/tdd",
+      "version": "e50e945",
+      "tree_hash": "62360e3df9385f95437ddd7a4f69e019d2a10b5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:b94bc25930af9f996be7f892b161b53ef9f8cf951784d31806548f5ad45e142c"
+      }
+    },
+    "team": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/team",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.75344282+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/team",
+      "version": "e50e945",
+      "tree_hash": "68e32877a3a9d1b4035f5ea3a558cb9860328eaa",
+      "file_hashes": {
+        "SKILL.md": "sha256:5f64973ed4d8ab119e6d8fd67168074495f65ed0b70fcd9b4de0aa31a5a14c79"
+      }
+    },
+    "trace": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/trace",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.76515401+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/trace",
+      "version": "e50e945",
+      "tree_hash": "de844732d141e5bf9864c4c12c169bf86efcd9e9",
+      "file_hashes": {
+        "SKILL.md": "sha256:c39af0c40fddb921bff9f6e34bc8c85f736265c2935e664709de7b33e2ea94bb"
+      }
+    },
+    "ultragoal": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ultragoal",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.801315019+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ultragoal",
+      "version": "e50e945",
+      "tree_hash": "e4b84b58f909f423b24d85ccc9d3c07168dad08b",
+      "file_hashes": {
+        "SKILL.md": "sha256:6d541b80796f55328714793fc28d0ab58230b728a083affce327047db2eb7ef5"
+      }
+    },
+    "ultraqa": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ultraqa",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.850847696+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ultraqa",
+      "version": "e50e945",
+      "tree_hash": "f02fe3f76c7b6f5f672b671fb2f6dbc46f23da0a",
+      "file_hashes": {
+        "SKILL.md": "sha256:b4e0b5718047abdb0a0e7d034c0c80b189d9b7c0f4f59d2fa3891b06bf93e65b"
+      }
+    },
+    "ultrawork": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/ultrawork",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.893555015+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/ultrawork",
+      "version": "e50e945",
+      "tree_hash": "424b9adfb77dc950bda768fa1fa9ca52c7728015",
+      "file_hashes": {
+        "SKILL.md": "sha256:c21fed7976dfdeb8f5bb39b77844ad9282aa815ad4d65f46a497e5a33a18a812"
+      }
+    },
+    "visual-ralph": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/visual-ralph",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.928651483+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/visual-ralph",
+      "version": "e50e945",
+      "tree_hash": "aafaac22dc81f4d7d307f3309dbe871dc1f640f6",
+      "file_hashes": {
+        "SKILL.md": "sha256:ed55aee5968859d4655679f6e7a7dfee1a2a2e9313fdb2c71a2e90824f79f6d7"
+      }
+    },
+    "visual-verdict": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/visual-verdict",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.940548004+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/visual-verdict",
+      "version": "e50e945",
+      "tree_hash": "640d1bca3c6fadd4c5ce6cfa4a1dbe6d77dc541c",
+      "file_hashes": {
+        "SKILL.md": "sha256:abeaa514ff016d8e84db48aa58e278bcf1f62848147d556114e60e4039399c3f"
+      }
+    },
+    "web-clone": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/web-clone",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:32.98563711+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/web-clone",
+      "version": "e50e945",
+      "tree_hash": "c60e50f734a29e24c4cfb7f26ae9fcde0b51fc0d",
+      "file_hashes": {
+        "SKILL.md": "sha256:b4baf27613f89cea1096845f66398e206f88b4eb82252b2c4b4cd8bcd5551f28"
+      }
+    },
+    "wiki": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/wiki",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:33.003619672+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/wiki",
+      "version": "e50e945",
+      "tree_hash": "027a220a065a3959ad130405df476661a5a99d1e",
+      "file_hashes": {
+        "SKILL.md": "sha256:94c4715d92451a6ae4281bc1690564a659ad68cb58b0938004a49b1079a14241"
+      }
+    },
+    "worker": {
+      "source": "https://github.com/Yeachan-Heo/oh-my-codex/skills/worker",
+      "type": "github-subdir",
+      "installed_at": "2026-05-28T15:25:33.024250924+08:00",
+      "repo_url": "https://github.com/Yeachan-Heo/oh-my-codex.git",
+      "subdir": "skills/worker",
+      "version": "e50e945",
+      "tree_hash": "517c4fc3701d646dce2fb4a65b70d77ad35814ad",
+      "file_hashes": {
+        "SKILL.md": "sha256:bb46b31f275a7ec4006d43bba9bf5d0e05955c846a3b58e66b82dc930ac0ac70"
+      }
+    }
+  }
+}
