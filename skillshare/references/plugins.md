@@ -22,6 +22,7 @@ skillshare plugin inspect demo -g --json
 skillshare plugin check demo -g --json
 skillshare plugin update demo -g --dry-run --json
 skillshare plugin update demo -g --no-tui
+skillshare plugin update --all -g --no-tui
 ```
 
 For a marketplace, pass the discovered candidate with `--plugin NAME` on both
@@ -33,7 +34,17 @@ managed target selection, while `plugin update` refreshes upstream content.
 When adding a new package, omit `--source-ref` to follow the remote's default branch.
 Updates reuse its stored ref; omitting the flag on update does not unpin an existing package.
 Adding a plugin does not schedule automatic updates; run `check` and `update` later.
-`sync --all` does not update or sync plugins.
+`sync --all` does not update or sync plugins; use `plugin update --all` (`-a`) to update all managed plugins.
+To follow a branch again after a pin, run `plugin update NAME --source-ref BRANCH`: the stored
+ref becomes that branch, and later updates fetch its latest commit. Pin a tag or commit only
+when the user asks for that version.
+
+A remote source is read at its repository root, where discovery looks for plugin manifests and
+marketplaces. For a plugin in a subdirectory that no root marketplace lists, clone the
+repository's default branch to a dedicated directory and add the plugin's folder from that
+clone. A local source takes no `--source-ref`, so `check` and `update` see only what the clone
+holds: run `git -C CLONE pull --ff-only` first. Do not check out a release tag in the clone
+unless the user asked for that version.
 
 ## Inspect before changing
 
@@ -68,7 +79,7 @@ Add targets later with the same source and `--name`, which installs the source a
 then. Such a package stays managed when its last target is removed.
 
 Use `--source-ref REF` with discover/add/update for a remote Git source.
-Bindings retain `source_ref` and the reviewed `commit`; `--revision` is a separate
+Shared bindings retain `source_ref`; the reviewed `commit` stays in the local receipt; `--revision` is a separate
 preview token. Use `--entry dist/plugin.js` with discover/add for an explicit
 OpenCode entry. Never build or execute package code just to discover it.
 
@@ -104,16 +115,22 @@ This is not native enable/disable. `sync --all` does not include plugins.
 skillshare plugin check demo --json -g
 skillshare plugin update demo --target claude --dry-run --json -g
 skillshare plugin update demo --target claude --no-tui -g
+skillshare plugin update --all --dry-run --json -g
+skillshare plugin update --all --no-tui -g
 skillshare plugin remove demo --dry-run --json -g
 ```
 
+`update --all` (`-a`) updates all managed packages (optionally filtered by `--target`);
+it cannot be combined with a package name or `--source-ref`. In `--all` mode, broken
+sources or unavailable targets are isolated to the affected bindings so healthy packages
+still update while any failure returns a nonzero exit code.
 `remove NAME --target` uninstalls that binding. `remove NAME` without `--target`, once
 no Agent holds it, drops the package from Skillshare entirely.
 
 Claude supports native updates; Codex re-adds the reviewed snapshot unless the plugin is disabled in Codex. Cursor/Antigravity replace managed
 local copies; Pi/OpenCode refresh reviewed source snapshots. Imported Codex plugins update by upgrading their marketplace; imported Pi packages through `pi update`, global only. Imported OpenCode v1 packages must be updated natively. OpenCode v2 global
-imports may use native update; project imports may not. Copilot source updates
-require known native enabled state; Antigravity CLI and Grok update natively. Project mode supports Claude, Antigravity, Pi,
+imports may use native update; project imports may not. Copilot and Antigravity CLI source updates
+require known native enabled state; Grok updates natively. Project mode supports Claude, Antigravity, Pi,
 OMP and OpenCode, never falling back to global scope. An update skips a target it
 cannot reach, says why, and still updates the other targets.
 
@@ -209,7 +226,7 @@ cannot reach, says why, and still updates the other targets.
 - Local directory plugins cannot import unowned folders or marketplace installs.
   Pi 0.99.2 or later can import supported filtered entries without changing
   native settings. Preview shows retained keys; raw entries stay in private state
-  and shared config stores a digest. Uninstall captures current options; reinstall
+  and its machine-local receipt stores a digest. Uninstall captures current options; reinstall
   restores the object before native install. Missing/changed/cross-target records,
   uncertain sources or precedence, and non-normalized local references are refused.
   Windows registrations use private ACLs, not POSIX mode bits. Unsafe existing
@@ -239,11 +256,52 @@ automation must provide explicit arguments and use `--json` or `--no-tui`.
 
 - Copilot installs a reviewed snapshot. An imported binding without a source cannot
   be reinstalled automatically after removal; install natively, then sync again.
-- Antigravity CLI accepts native and Claude manifests using its own CLI. Its native
-  list does not expose enablement; never present unknown as disabled. Update in agy.
+- Antigravity CLI accepts native and Claude manifests using its own CLI. Source
+  updates require known native enabled state (`agy plugin list --json`); disabled or
+  imported installations must be updated in agy.
 - Grok install/update requires native trust; never add `--trust` automatically.
 - Kimi, Hermes, and Devin discovery does not authorize native installation,
   capability consent, or cloud changes. Explain the adapter limitation.
 - Registration is not proof of resource loading. Verify inside the target Agent.
 - Failed snapshot updates restore the previous managed snapshot; this is not a
   claim that every native cache side effect can be rolled back.
+
+
+## Shared plugin intent and local state
+
+Shared `plugins.version: 2` declares package source/ref/plugin/entry, effective
+per-target sources and selection, or `imported: true`. Native IDs, reviewed
+commit/digest/version, Pi registration references and pending actions stay in
+`<StateDir>/plugins/<config-path-hash>/state.json` (version 1). Keep StateDir local.
+Sync, normal update and retry never rewrite shared YAML; `update --source-ref`
+changes intent only when the ref differs. Reads persist local legacy hints without changing shared YAML.
+
+Each host reviews source installs independently and generates local native IDs.
+Branch refs resolve on that host at install/update time, including non-interactive
+sync; use a commit SHA in source_ref for the same revision on every host.
+State is keyed by the absolute config path: moving a config/project starts a new
+namespace and does not track or clean up the previous installations.
+A local source path must exist on every host. Native-only targets on another host
+require native installation and `plugin import LOCAL-ID --from TARGET --name NAME`;
+identical repeated import intent does not rewrite YAML. Importing into an existing
+source declaration preserves its recipe and other machines' installations.
+A local import remains installed when the shared recipe changes. To use that recipe
+on this machine, run `plugin unimport NAME --target TARGET --no-tui`, then
+`plugin sync NAME --no-tui`. `unimport` requires explicit targets with an existing
+local import receipt and a shared source recipe. It uninstalls the imported binding
+on this machine through the target's removal adapter, then drops its local receipt.
+Uninstalling also removes native-client configuration or login associated with that installation.
+Shared intent and other machines are unchanged; the next sync installs the shared recipe.
+Explicit Pi npm add shares
+a recipe that runs Pi's install scripts; npm import remains native-only. Ambiguous
+legacy npm entries remain native-only until explicitly added again.
+
+Legacy read/sync does not rewrite YAML; actual declaration edits write version 2.
+Unresolved legacy bindings survive declaration edits as passive private hints;
+only original-context inventory/ownership proof can turn them into cleanup receipts.
+Upgrade all shared-config writers first, then run `skillshare plugin list` on each
+machine while YAML is still legacy, before the first v2 edit anywhere. Local adoption needs inventory and owned
+snapshot proof. Removed or changed targets retain local cleanup evidence until
+success; account changes require resolving the old native context. Failures and
+retries stay local. Changed-byte checks do not merge simultaneous Syncthing intent
+edits. Native settings, authentication and trust remain private to each host.
